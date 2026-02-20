@@ -14,7 +14,7 @@ public class DBConnection {
                 Class.forName("com.mysql.cj.jdbc.Driver");
 
                 conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/automobile_service",
+                    "jdbc:mysql://localhost:3306/bike_booking_service",
                     "bike",
                     "Mboys@123"
                 );
