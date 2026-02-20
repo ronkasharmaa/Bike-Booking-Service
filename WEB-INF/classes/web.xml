@@ -3,7 +3,7 @@
 
 <servlet>
 <servlet-name>RegisterServlet</servlet-name>
-<servlet-class>com.service.RegisterServlet</servlet-class>
+<servlet-class>RegisterServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -14,7 +14,7 @@
 
 <servlet>
 <servlet-name>LoginServlet</servlet-name>
-<servlet-class>com.service.LoginServlet</servlet-class>
+<servlet-class>LoginServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -25,7 +25,7 @@
 
 <servlet>
 <servlet-name>DashboardServlet</servlet-name>
-<servlet-class>com.service.DashboardServlet</servlet-class>
+<servlet-class>DashboardServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -36,7 +36,7 @@
 
 <servlet>
 <servlet-name>VehicleServlet</servlet-name>
-<servlet-class>com.service.VehicleServlet</servlet-class>
+<servlet-class>VehicleServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -47,7 +47,7 @@
 
 <servlet>
 <servlet-name>BookingServlet</servlet-name>
-<servlet-class>com.service.BookingServlet</servlet-class>
+<servlet-class>BookingServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -58,7 +58,7 @@
 
 <servlet>
 <servlet-name>LogoutServlet</servlet-name>
-<servlet-class>com.service.LogoutServlet</servlet-class>
+<servlet-class>LogoutServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
