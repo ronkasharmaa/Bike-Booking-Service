@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 
             PreparedStatement ps =
             conn.prepareStatement(
-            "SELECT * FROM users WHERE email=? AND password=?");
+            "SELECT * FROM acoounts WHERE email=? AND password=?");
 
             ps.setString(1,email);
             ps.setString(2,password);
